@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+header {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.fundo {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    
+    
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    padding: 20px;   
+}
+
+img.tomate {
+    height: 85px;
+    width: 85px;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363); 
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > :hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    box-shadow: 0px 7px 7px;
+}
+
+h1.titulo1 {
+    color: white;
+    background-image: linear-gradient(to right, #F51C00, #F75E4A, white);
+}
+
+h2.titulo2 {
+    color: white;
+    background-image: linear-gradient(to right, #F51C00, #F75E4A, white);
+}
+
+main > p {
+    padding: 10px;
+}
+
+img.tomate1 {
+    height: 200px;
+    width: 200px;
+}
+
+img.mfc {
+    height: 200px;
+    width: 200px;
+}
+
+table {
+    width: 250px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: solid black;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
